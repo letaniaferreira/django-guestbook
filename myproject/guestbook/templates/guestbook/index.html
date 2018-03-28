@@ -2,21 +2,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"> <!-- symbols/ Universal Character set + Transformation Format-8-bit -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- browser compatibility for Internet Explorer/edge mode = highest standards supported by IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- boostrap, sizing for different devices /port will render width of page at width of screen -->
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="guestbook app"> <!-- content will appear  in search results -->
+    <meta name="author" content=""> <!-- gives credit to person or company that made website -->
 
     <title>Guest Book</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS / defines all the style for various controls/components -->
     <link href="{% static 'guestbook/bootstrap.min.css' %}" rel="stylesheet"> 
-    <!-- Bootstrap theme -->
+    <!-- builds upon the core Bootstrap theme / defines the themes (gradient/animation) for buttons,dropdown menu,navbar,progressbar,panels -->
     <link href="{% static 'guestbook/bootstrap-theme.min.css' %}" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template / overwrites what is in the other links -->
     <link href="{% static 'guestbook/theme.css' %}" rel="stylesheet">
 
   </head>
